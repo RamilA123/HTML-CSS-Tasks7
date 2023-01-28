@@ -1,0 +1,122 @@
+body{
+    background-color: purple;
+}
+.cnt{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.row{
+    justify-content: center;
+}
+
+.card1{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.card1 .image{
+    width: 171px;
+    height: 170px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 550;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.card1 span{
+    color: purple;
+    display: block;
+    margin-top: 15px;
+    font-weight: 550;
+}
+
+.card1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 92px;
+    border: 6px solid purple;
+}
+
+.card1 .star{
+    color: purple;
+}
+
+.card1 .star1{
+    color: purple;
+}
+
+.card1 p{
+    font-weight: 550;
+}
+
+.card1 .button a{
+    border: 2px solid purple;
+    color: purple;
+    border: 2px solid purple;
+    color: purple;
+    padding: 7px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.card1 .button a:hover{
+   background-color: purple;
+   color: white;
+}
+
+.card1:hover{
+    background-color: black;
+  
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 1231px) {
+    .card1{
+        height: 419px;
+        width: 250px;
+    }
+
+    .row{
+        gap: 45px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    .card1{
+        height: 433px;     
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+    .card1{
+      
+    }
+
+}
+
+
+.image-area{
+    display: flex;
+    justify-content: center;
+}
+
